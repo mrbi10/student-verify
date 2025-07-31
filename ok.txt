@@ -1,20 +1,4 @@
-[
-  {
-    "S.No": 1,
-    "Registration No.": "311622104001",
-    "Name": "Abinanthan V",
-    "D.O.B": "10-06-2005",
-    "Gender (M/F)": "M",
-    "X %": 81,
-    "XII %": 77,
-    "Diploma%": "N/A",
-    "UG (CGPA upto 5th sem)": 8.3,
-    "History of Arrears": 0,
-    "No.of. Backlogs": 0,
-    "Mobile": "9876543210",
-    "Email-id": "abinanthan@example.com"
-  },
-{
+[{
   "S.No" : "1",
   "Registration No." : "311622104001",
   "Name" : "Abinanthan V",
@@ -772,7 +756,7 @@
 },
 {
   "S.No" : "43",
-  "Registration No." : "311622104046",
+  "Registration No." : "3.11622E+11",
   "Name" : "S.Santhiya",
   "D.O.B" : "07-09-2004",
   "Gender (M/F)" : "F",
@@ -787,7 +771,7 @@
 },
 {
   "S.No" : "44",
-  "Registration No." : "311622104047",
+  "Registration No." : "3.11622E+11",
   "Name" : "V.J.Saranya",
   "D.O.B" : "05-07-2005",
   "Gender (M/F)" : "F",
@@ -802,7 +786,7 @@
 },
 {
   "S.No" : "45",
-  "Registration No." : "311622104048",
+  "Registration No." : "3.11622E+11",
   "Name" : "Sharath R",
   "D.O.B" : "09-11-2004",
   "Gender (M/F)" : "M",
@@ -817,7 +801,7 @@
 },
 {
   "S.No" : "46",
-  "Registration No." : "311622104049",
+  "Registration No." : "3.11622E+11",
   "Name" : "R.SHRAGHI",
   "D.O.B" : "25-06-2004",
   "Gender (M/F)" : "F",
@@ -832,7 +816,7 @@
 },
 {
   "S.No" : "47",
-  "Registration No." : "311622104050",
+  "Registration No." : "3.11622E+11",
   "Name" : "Shrishti Nandawat D",
   "D.O.B" : "10-03-2005",
   "Gender (M/F)" : "F",
@@ -847,7 +831,7 @@
 },
 {
   "S.No" : "48",
-  "Registration No." : "311622104051",
+  "Registration No." : "3.11622E+11",
   "Name" : "Soumya ranjan",
   "D.O.B" : "03-03-2004",
   "Gender (M/F)" : "M",
@@ -862,7 +846,7 @@
 },
 {
   "S.No" : "49",
-  "Registration No." : "311622104052",
+  "Registration No." : "3.11622E+11",
   "Name" : "Tarun jain N",
   "D.O.B" : "29-11-2004",
   "Gender (M/F)" : "M",
@@ -877,7 +861,7 @@
 },
 {
   "S.No" : "50",
-  "Registration No." : "311622104053",
+  "Registration No." : "3.11622E+11",
   "Name" : "Thanmayee R",
   "D.O.B" : "15-10-2004",
   "Gender (M/F)" : "F",
@@ -892,7 +876,7 @@
 },
 {
   "S.No" : "51",
-  "Registration No." : "311622104054",
+  "Registration No." : "3.11622E+11",
   "Name" : "S. UMESH KUMAR",
   "D.O.B" : "07-05-2004",
   "Gender (M/F)" : "M",
@@ -907,7 +891,7 @@
 },
 {
   "S.No" : "52",
-  "Registration No." : "311622104055",
+  "Registration No." : "3.11622E+11",
   "Name" : "Vanitha S",
   "D.O.B" : "03-10-2004",
   "Gender (M/F)" : "F",
@@ -922,7 +906,7 @@
 },
 {
   "S.No" : "53",
-  "Registration No." : "311622104056",
+  "Registration No." : "3.11622E+11",
   "Name" : "K Veeneth Kanooga",
   "D.O.B" : "07-09-2004",
   "Gender (M/F)" : "M",
@@ -937,7 +921,7 @@
 },
 {
   "S.No" : "54",
-  "Registration No." : "311622104057",
+  "Registration No." : "3.11622E+11",
   "Name" : "Vikas Surana",
   "D.O.B" : "16-03-2005",
   "Gender (M/F)" : "M",
@@ -952,7 +936,7 @@
 },
 {
   "S.No" : "55",
-  "Registration No." : "311622104058",
+  "Registration No." : "3.11622E+11",
   "Name" : "VINOTHRAJ P",
   "D.O.B" : "31-07-2005",
   "Gender (M/F)" : "M",
@@ -967,7 +951,7 @@
 },
 {
   "S.No" : "56",
-  "Registration No." : "311622104059",
+  "Registration No." : "3.11622E+11",
   "Name" : "Yajnesh K",
   "D.O.B" : "04-03-2005",
   "Gender (M/F)" : "M",
@@ -982,7 +966,7 @@
 },
 {
   "S.No" : "57",
-  "Registration No." : "311622104301",
+  "Registration No." : "3.11622E+11",
   "Name" : "MUKESHJAIN MD",
   "D.O.B" : "04-12-2004",
   "Gender (M/F)" : "M",
@@ -995,5 +979,3 @@
   "Mobile" : "9384403014",
   "Email-id" : "mukeshjainmd2004@gmail.com"
 }]
-
-
