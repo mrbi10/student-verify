@@ -1,19 +1,4 @@
 [
-  {
-    "S.No": 1,
-    "Registration No.": "311622104001",
-    "Name": "Abinanthan V",
-    "D.O.B": "10-06-2005",
-    "Gender (M/F)": "M",
-    "X %": 81,
-    "XII %": 77,
-    "Diploma%": "N/A",
-    "UG (CGPA upto 5th sem)": 8.3,
-    "History of Arrears": 0,
-    "No.of. Backlogs": 0,
-    "Mobile": "9876543210",
-    "Email-id": "abinanthan@example.com"
-  },
 {
   "S.No" : "1",
   "Registration No." : "311622104001",
@@ -27,10 +12,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "6369189844",
-  "Email-id" : "abinanthan1006@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "abinanthan1006@gmail.com"
 },
 {
   "S.No" : "2",
@@ -45,10 +27,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "6381358371",
-  "Email-id" : "ajithnathjain0210@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "ajithnathjain0210@gmail.com"
 },
 {
   "S.No" : "3",
@@ -63,10 +42,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "5",
   "Mobile" : "9043388070",
-  "Email-id" : "akileshaki30@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "akileshaki30@gmail.com"
 },
 {
   "S.No" : "4",
@@ -81,10 +57,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "9361527174",
-  "Email-id" : "alagumalainalan@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "alagumalainalan@gmail.com"
 },
 {
   "S.No" : "5",
@@ -99,10 +72,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "1",
   "Mobile" : "8122866909",
-  "Email-id" : "aswinkamar3@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "aswinkamar3@gmail.com"
 },
 {
   "S.No" : "6",
@@ -117,10 +87,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "9677091563",
-  "Email-id" : "balajimanikandan59@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "balajimanikandan59@gmail.com"
 },
 {
   "S.No" : "7",
@@ -135,10 +102,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "9840511849",
-  "Email-id" : "brijkishortripathi2005@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "brijkishortripathi2005@gmail.com"
 },
 {
   "S.No" : "8",
@@ -153,10 +117,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "9345399545",
-  "Email-id" : "deepeshkumarl2304@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "deepeshkumarl2304@gmail.com"
 },
 {
   "S.No" : "9",
@@ -171,10 +132,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "9360452778",
-  "Email-id" : "deepikabavani.s14@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "deepikabavani.s14@gmail.com"
 },
 {
   "S.No" : "10",
@@ -189,10 +147,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "8667233907",
-  "Email-id" : "dhanushp0408@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "dhanushp0408@gmail.com"
 },
 {
   "S.No" : "11",
@@ -207,10 +162,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "8825770516",
-  "Email-id" : "dharshni.kr@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "dharshni.kr@gmail.com"
 },
 {
   "S.No" : "12",
@@ -225,10 +177,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "14",
   "Mobile" : "8248469194",
-  "Email-id" : "gouthambabu1811@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "gouthambabu1811@gmail.com"
 },
 {
   "S.No" : "13",
@@ -243,10 +192,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "7448933298",
-  "Email-id" : "harish031511@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "harish031511@gmail.com"
 },
 {
   "S.No" : "14",
@@ -261,10 +207,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "6369870946",
-  "Email-id" : "harishpoovaragavan007@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "harishpoovaragavan007@gmail.com"
 },
 {
   "S.No" : "15",
@@ -279,10 +222,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "7305039287",
-  "Email-id" : "imhema25@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "imhema25@gmail.com"
 },
 {
   "S.No" : "16",
@@ -297,10 +237,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "8838287420",
-  "Email-id" : "hemavathy182004@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "hemavathy182004@gmail.com"
 },
 {
   "S.No" : "17",
@@ -315,10 +252,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "9841228139",
-  "Email-id" : "infiahelen.2004@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "infiahelen.2004@gmail.com"
 },
 {
   "S.No" : "18",
@@ -333,10 +267,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "9677680581",
-  "Email-id" : "ketheeshakr@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "ketheeshakr@gmail.com"
 },
 {
   "S.No" : "19",
@@ -351,10 +282,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "6381238879",
-  "Email-id" : "kiranbarades4@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "kiranbarades4@gmail.com"
 },
 {
   "S.No" : "20",
@@ -369,10 +297,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "7810080186",
-  "Email-id" : "kishorekumar200415@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "kishorekumar200415@gmail.com"
 },
 {
   "S.No" : "21",
@@ -387,10 +312,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "8939138139",
-  "Email-id" : "krina130804@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "krina130804@gmail.com"
 },
 {
   "S.No" : "22",
@@ -405,10 +327,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "7904805310",
-  "Email-id" : "krishnapriyards545@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "krishnapriyards545@gmail.com"
 },
 {
   "S.No" : "23",
@@ -423,10 +342,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "6382654132",
-  "Email-id" : "krithikakumar1105@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "krithikakumar1105@gmail.com"
 },
 {
   "S.No" : "24",
@@ -441,10 +357,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "6385149118",
-  "Email-id" : "lavujio@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "lavujio@gmail.com"
 },
 {
   "S.No" : "25",
@@ -459,10 +372,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "9025784024",
-  "Email-id" : "loguthangavel0110@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "loguthangavel0110@gmail.com"
 },
 {
   "S.No" : "26",
@@ -477,10 +387,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "7845465036",
-  "Email-id" : "manjulavenugopal642@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "manjulavenugopal642@gmail.com"
 },
 {
   "S.No" : "27",
@@ -495,10 +402,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "9444771400",
-  "Email-id" : "monishkumarmonish04@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "monishkumarmonish04@gmail.com"
 },
 {
   "S.No" : "28",
@@ -513,10 +417,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "8056183422",
-  "Email-id" : "montuprajapati616@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "montuprajapati616@gmail.com"
 },
 {
   "S.No" : "29",
@@ -531,10 +432,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "9047162311",
-  "Email-id" : "mukesh.g11012004@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "mukesh.g11012004@gmail.com"
 },
 {
   "S.No" : "30",
@@ -549,10 +447,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "8637611361",
-  "Email-id" : "nandhinibahubali@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "nandhinibahubali@gmail.com"
 },
 {
   "S.No" : "31",
@@ -567,10 +462,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "6374179865",
-  "Email-id" : "padhmapriesh30@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "padhmapriesh30@gmail.com"
 },
 {
   "S.No" : "32",
@@ -585,10 +477,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "02",
   "Mobile" : "6380019385",
-  "Email-id" : "philipspatsun3@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "philipspatsun3@gmail.com"
 },
 {
   "S.No" : "33",
@@ -603,10 +492,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "9710167655",
-  "Email-id" : "pavithrasaravanan027@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "pavithrasaravanan027@gmail.com"
 },
 {
   "S.No" : "34",
@@ -621,10 +507,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "1",
   "Mobile" : "8778419778",
-  "Email-id" : "prahadeeswaran085@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "prahadeeswaran085@gmail.com"
 },
 {
   "S.No" : "35",
@@ -639,10 +522,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "7200406309",
-  "Email-id" : "prakshitvjain@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "prakshitvjain@gmail.com"
 },
 {
   "S.No" : "36",
@@ -657,10 +537,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "8955656088",
-  "Email-id" : "priyankdave169@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "priyankdave169@gmail.com"
 },
 {
   "S.No" : "37",
@@ -675,10 +552,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "7299714638",
-  "Email-id" : "revathivelmurugan961@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "revathivelmurugan961@gmail.com"
 },
 {
   "S.No" : "38",
@@ -693,10 +567,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "1",
   "Mobile" : "7092532498",
-  "Email-id" : "Rubeshrs11@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "Rubeshrs11@gmail.com"
 },
 {
   "S.No" : "39",
@@ -711,10 +582,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "6369993868",
-  "Email-id" : "sagarikavsmdu@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "sagarikavsmdu@gmail.com"
 },
 {
   "S.No" : "40",
@@ -729,10 +597,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "9176930608",
-  "Email-id" : "manivannansakthi4@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "manivannansakthi4@gmail.com"
 },
 {
   "S.No" : "41",
@@ -747,10 +612,7 @@
   "History of Arrears" : "Yes",
   "No.of. Backlogs" : "0",
   "Mobile" : "8939082616",
-  "Email-id" : "sangavikarunakaran2003@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "sangavikarunakaran2003@gmail.com"
 },
 {
   "S.No" : "42",
@@ -765,10 +627,7 @@
   "History of Arrears" : "No",
   "No.of. Backlogs" : "0",
   "Mobile" : "6382608836",
-  "Email-id" : "sanjayrajgurupurohit@gmail.com",
-  "N" : null,
-  "O" : null,
-  "P" : null
+  "Email-id" : "sanjayrajgurupurohit@gmail.com"
 },
 {
   "S.No" : "43",
