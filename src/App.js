@@ -9,32 +9,24 @@ function App() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    fetch('/data.json')
-      .then(res => res.json())
-      .then(rawData => {
-        const cleanedData = rawData.map(record => {
-          const cleaned = {};
-          for (let key in record) {
-            cleaned[key.trim()] = typeof record[key] === 'string' ? record[key].trim() : record[key];
-          }
-          return cleaned;
-        });
-        setData(cleanedData);
-      });
+    fetch(`${process.env.PUBLIC_URL}/data.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error('Failed to load student data.');
+        return res.json();
+      })
+      .then((json) => setData(json))
+      .catch(() => setError('Failed to load student data.'));
   }, []);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const formattedInputDob = new Date(dob).toISOString().split('T')[0]; // "YYYY-MM-DD"
-    
-    const match = data.find(item =>
-      String(item['Registration No.']).trim().toLowerCase() === regNo.trim().toLowerCase() &&
-      String(item['D.O.B']).trim() === formattedInputDob
+  const handleVerify = () => {
+    const student = data.find(
+      (s) =>
+        s['Registration No.']?.toString().trim() === regNo.trim() &&
+        s['D.O.B']?.trim() === dob.trim()
     );
 
-    if (match) {
-      setResult(match);
+    if (student) {
+      setResult(student);
       setError('');
     } else {
       setResult(null);
@@ -46,65 +38,69 @@ function App() {
     <div className="container">
       <header>
         <h1>IV CSE PLACEMENT DATA</h1>
-        <h3>BATCH 2022-2026</h3>
-        <p className="subtitle">Enter your details to view your record</p>
+        <h3>Batch 2022-2026</h3>
+        <p className="subtitle">Verify using Register Number and Date of Birth</p>
       </header>
 
-      <form onSubmit={handleSubmit} className="lookup-form">
+      <div className="lookup-form">
         <div className="form-group">
-          <label>Register Number</label>
+          <label htmlFor="regNo">Register Number</label>
           <input
+            id="regNo"
+            type="text"
             value={regNo}
-            onChange={e => setRegNo(e.target.value)}
-            placeholder="Enter your Reg. No"
-            required
+            onChange={(e) => setRegNo(e.target.value)}
+            placeholder="Enter Register Number"
           />
         </div>
+
         <div className="form-group">
-          <label>Date of Birth</label>
+          <label htmlFor="dob">Date of Birth (DD-MM-YYYY)</label>
           <input
-            type="date"
+            id="dob"
+            type="text"
             value={dob}
-            onChange={e => setDob(e.target.value)}
-            required
+            onChange={(e) => setDob(e.target.value)}
+            placeholder="Enter Date of Birth"
           />
         </div>
-        <button type="submit">Verify</button>
-        {error && <p className="error">{error}</p>}
-      </form>
+
+        <button onClick={handleVerify}>Verify</button>
+
+        {error && <div className="error">⚠️ {error}</div>}
+      </div>
 
       {result && (
         <div className="result-card">
-          <h2>{result['Name']}</h2>
+          <h3>Student Found</h3>
           <div className="info-grid">
-            <p><strong>Reg No:</strong> {result['Registration No.']}</p>
-            <p><strong>DOB:</strong> {result['D.O.B']}</p>
-            <p><strong>Gender:</strong> {result['Gender (M/F)']}</p>
-            <p><strong>X %:</strong> {result['X %']}</p>
-            <p><strong>XII %:</strong> {result['XII %']}</p>
-            <p><strong>Diploma %:</strong> {result['Diploma%']}</p>
-            <p><strong>UG CGPA:</strong> {result['UG (CGPA upto 5th sem)']}</p>
-            <p><strong>Arrears:</strong> {result['History of Arrears']}</p>
-            <p><strong>Backlogs:</strong> {result['No.of. Backlogs']}</p>
-            <p><strong>Mobile:</strong> {result['Mobile']}</p>
-            <p><strong>Email:</strong> {result['Email-id']}</p>
+            {Object.entries(result).map(([key, value]) => (
+              <div key={key}>
+                <strong>{key}</strong><br />
+                <span>{value}</span>
+              </div>
+            ))}
           </div>
+            <div className="report-link">
+       <a
+  href="https://forms.gle/8ymTQrhMxT7sJmpG7"
+  target="_blank"
+  rel="noreferrer"
+  className="text-blue-600 hover:underline text-sm mt-4 block"
+>
+  📩 Report an Issue
+</a>
 
-          <div style={{ marginTop: '2rem', textAlign: 'center' }}>
-            <a
-              href="https://forms.gle/xmdwpqagSqFqFh3p7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="report-link"
-            >
-              Found an issue in your data? Report it here →
-            </a>
-          </div>
-          <footer className="footer">
-            <p>Made with 💙 by <strong>Mrbi</strong></p>
-          </footer>
+      </div>
+          <div className="footer">
+        <p>
+          Developed by <strong>Mrbi💙</strong>
+        </p>
+      </div>
         </div>
       )}
+
+      
     </div>
   );
 }

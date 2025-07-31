@@ -151,3 +151,18 @@ button:hover {
   color: #1f2937;
 }
 
+.report-link {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.report-link a {
+  text-decoration: none;
+  font-size: 14.5px;
+  color: #444;
+  transition: color 0.3s;
+}
+
+.report-link a:hover {
+  color: #1f2937;
+}
