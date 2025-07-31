@@ -1,38 +1,153 @@
-.App {
+:root {
+  --font-main: 'Segoe UI', sans-serif;
+  --color-bg: #f7f8fa;
+  --color-card: #ffffff;
+  --color-text: #2b2b2b;
+  --color-muted: #6b7280;
+  --color-primary: #1f2937;
+  --color-border: #e5e7eb;
+  --color-error: #dc2626;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 720px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: var(--color-bg);
+  transition: all 0.3s ease;
+}
+
+header {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-primary);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subtitle {
+  font-size: 1rem;
+  color: var(--color-muted);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lookup-form {
+  background: var(--color-card);
+  padding: 2rem;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.form-group {
+  margin-bottom: 1.5rem;
 }
 
-@keyframes App-logo-spin {
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--color-muted);
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+button {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #111827;
+}
+
+.error {
+  margin-top: 1rem;
+  color: var(--color-error);
+  font-weight: 500;
+}
+
+.result-card {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.4s ease-out;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem 1.5rem;
+  margin-top: 1rem;
+}
+
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(8px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
+
+.report-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #1f2937;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.report-link:hover {
+  color: #111827;
+  border-bottom: 1px solid #111827;
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b7280;
+  opacity: 0.8;
+}
+
+.footer strong {
+  color: #1f2937;
+}
+
